@@ -10,8 +10,8 @@ import Image from "next/image";
 
 export default function SignUp() {
     return (
-        <div className="mt-24 rounded bg-black/75 py-10 px-10 md:mt-0 md:max-w-sm md:px-14">
-            <form className='justify-center'>
+        <div className="mt-24 rounded bg-black/75 py-10 px-10 md:mt-0 md:max-w-sm md:px-14 justify-center">
+            <form>
                 <h1 className='text-3xl font-semibold text-white'>SignUp</h1>
                 <div className='space-y-4 mt-5'>
                     <Input
